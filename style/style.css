@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    background-color: #23233b;
+}
+
+a{
+    color: white;
+    font-family: inherit;
+    font-size: inherit;
+}
+h1{
+    font-size: 4rem;
+}
+
+p{
+    line-height: 2.1rem;
+}
+
+.header{
+    min-height: 100vh;
+}
+
+.small-title{
+    border-bottom: 2px solid #FE1A95;
+    display: inline-block;
+    padding-bottom: .4rem;
+    margin-bottom: 4rem;
+    font-weight: 500s;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    min-height: 10vh;
+    border-bottom: 1px solid #2E344E;
+    padding: 0 15rem;
+    align-items: center;
+    background-color: #1d1d34;
+}
+
+.nav-items{
+    display: flex;
+    align-items:center;
+}
+
+.nav-item{
+    margin: 0 1rem;
+}
+
+.logo{
+    width: 50px;
+}
+
+.logo svg{
+    width: 100%;
+}
+
+.cart{
+    width: 50px;
+    position: relative;
+}
+
+.cart img{
+    width: 100%;
+}
+
+.number{
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #FE1A95;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    min-height: 90vh;
+    width: 100%;
+    padding: 0 15rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url(../img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.left{
+    position: relative;
+}
+
+.left-content{
+    position: absolute;
+    left: 0;
+    top: 10%;
+    width: 97%;
+}
+
+.left-content p{
+    padding: 1rem 0;
+}
+
+.name{
+    color: white;
+    opacity: 0.7;
+    margin-bottom: 2rem;
+}
+
+.btn{
+    padding: .8rem 1rem;
+    text-transform: uppercase;
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+    display: inline-block;
+    text-align: center;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+.main-btn{
+    background-color: #f34545;
+}
+
+.right{
+    position: relative;
+}
+
+.right .hero{
+    position: absolute;
+    top: 15%;
+    right: 0;
+    width: 95%;
+}
+
+/* Section */
+.section{
+    padding: 8rem 15rem;
+    background-color: #171a38;
+}
+
+.title{
+    text-align: center;
+}
+
+.title2{
+    position: relative;
+    padding-bottom: 1.5rem;
+    display: inline-block;
+    font-size: 2.5rem;
+}
+
+
+.title2::before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 50%;
+    height: 2px;
+    background-color: #FE1A95;
+    transform: translateX(-50%);
+}
+
+.featured-para{
+    margin: 0 auto;
+    width: 60%s;
+}
